@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
+
 .bg-body-tertiary {
     background-color: #000324 !important;
 }
@@ -21,4 +22,22 @@
 
 .navbar img {
     width: 65%;
+}
+
+.header-image {
+    width: 1550px;
+    height: 450px;
+
+    object-fit: cover;
+    object-position: top 100px;
+}
+
+.header-text {
+    font-family: Dosis;
+    width: 50%;
+    color: white;
+    background-color: rgb(0, 3, 36, 75%);
+
+    position: relative;
+    bottom: 325px;
 }
