@@ -97,7 +97,7 @@ ul.nav a::hover {
 
 .roomcard-background {
     width: 1550px;
-    height: 600px;
+    height: 675px;
 
     object-fit: cover;
     object-position: top 100px;
@@ -112,15 +112,35 @@ ul.nav a::hover {
 
 .card-container {
     position: relative;
-    bottom: 550px;
+    bottom: 650px;
 }
 
 .card-title {
     font-family: Dosis;
+}
 
+.card-secondtitle {
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 .card-text {
     font-family: sans-serif;
     font-size: 12px;
+}
+
+.btn {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.btn-margin {
+    margin-top: 90px;
+}
+
+.packages-titletext {
+    font-family: Dosis;
+    font-size: 35px;
+    text-align: center;
+    color: black;
 }
