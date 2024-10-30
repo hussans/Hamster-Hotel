@@ -7,6 +7,10 @@
     background-color: #000324 !important;
 }
 
+.navbar-toggler {
+    color: white;
+}
+
 .navbar a {
     font-family: Dosis;
     color: white;
@@ -129,6 +133,10 @@ ul.nav a::hover {
     font-size: 12px;
 }
 
+.room-container {
+    height: 775px;
+}
+
 .btn {
     font-family: sans-serif;
     font-weight: 600;
@@ -144,3 +152,67 @@ ul.nav a::hover {
     text-align: center;
     color: black;
 }
+
+.packages-images {
+    width: 635px;
+    height: 265px;
+
+    object-fit: cover;
+}
+
+.packages-text-wedding {
+    padding-left: 300px;
+} 
+
+.packages-title {
+    font-family: Dosis;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.packages-subtitle {
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #1F51A8;
+    padding-top: 15px;
+}
+
+.packages-description {
+    font-family: sans-serif;
+    padding-top: 15px;
+    
+}
+
+.amenities-container {
+    margin-top: 100px;
+}
+
+.amenities-subcontainer {
+    position: relative;
+    bottom: 535px;
+}
+
+.amenities-background {
+    width: 1550px;
+    height: 600px;
+
+    object-fit: cover;
+}
+
+.amenities-title {
+    font-family: Dosis;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.amenities-description {
+    padding-top: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+

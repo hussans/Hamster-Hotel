@@ -12,7 +12,7 @@
 
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid text-center">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -62,7 +62,7 @@
       <div class="container intro-container ps-5 pe-5">
         <div class="row">
             <div class="col-4"> 
-                <img class="hamster-image" src="./assets/hamsterhomejpg.jpg" alt="">
+                <img class="hamster-image" src="./assets/hamsterhomejpg.jpg" alt="Hamster on a beach chair">
             </div>
             <div class="col-7 intro-text">
                 <h3> Welcome to a hamster's paradise </h3>
@@ -74,13 +74,13 @@
                 </p>
                 <div class="row">
                     <div class="col-4">
-                        <img class="image-finest" src="./assets/awardfinest.png" alt="">
+                        <img class="image-finest" src="./assets/awardfinest.png" alt="Award for the finest quality">
                     </div>
                     <div class="col-4">
-                        <img class="image-satisfaction" src="./assets/awardsatisfaction.png" alt="">
+                        <img class="image-satisfaction" src="./assets/awardsatisfaction.png" alt="Award for good customer satisfaction">
                     </div>
                     <div class="col-4">
-                        <img class="image-genuine" src="./assets/awardgenuine.png" alt="">
+                        <img class="image-genuine" src="./assets/awardgenuine.png" alt="Award for genuine satisfaction">
                     </div>
                 </div>
             </div>
@@ -89,9 +89,9 @@
 
       <!-- Our Room Cards / Background -->
 
-      <div class="container-fluid p-0">
+      <div class="container-fluid room-container p-0">
         <div class="row">
-            <img class="roomcard-background" src="./assets/bg2.jpg" alt="">
+            <img class="roomcard-background" src="./assets/bg2.jpg" alt="Hall Background">
         </div>
         <div class="container card-container">
             <div class="row">
@@ -99,7 +99,7 @@
             </div>
             <div class="row d-flex justify-content-center">
                 <div class="card rounded-0 border-0 p-0 ms-2" style="width: 18rem;">
-                    <img src="./assets/room1.jpg" class="card-img-top rounded-0" alt="...">
+                    <img src="./assets/room1.jpg" class="card-img-top rounded-0" alt="Queen Bedroom">
                     <div class="card-body">
                         <h5 class="card-title"> Queen Room </h5>
                         <h6 class="card-secondtitle"> 850 SQ FT room with city view </h6>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
                 <div class="card rounded-0 border-0 p-0 ms-2" style="width: 18rem;">
-                    <img src="./assets/room2.jpg" class="card-img-top rounded-0" alt="...">
+                    <img src="./assets/room2.jpg" class="card-img-top rounded-0" alt="King Bedroom">
                     <div class="card-body">
                         <h5 class="card-title"> King Room </h5>
                         <h6 class="card-secondtitle"> 950 SQ FT room with beach view </h6>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
                 <div class="card rounded-0 border-0 p-0 ms-2" style="width: 18rem;">
-                    <img src="./assets/room3.jpg" class="card-img-top rounded-0" alt="...">
+                    <img src="./assets/room3.jpg" class="card-img-top rounded-0" alt="Suite Room">
                     <div class="card-body">
                         <h5 class="card-title"> Beach Side Suite </h5>
                         <h6 class="card-secondtitle"> 1500 SQ FT Suite with beach view </h6>
@@ -138,22 +138,75 @@
 
       <!-- Packages -->
 
-      <div class="container">
-        <div class="row">
-            <p class="packages-titletext"> Packages </p>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <img src="./assets/hamsterwedding.jpg" alt="Hamster Wedding">
+      <div class="container-fluid">
+        <div class="container packages-container">
+            <div class="row">
+                <p class="packages-titletext"> Packages </p>
             </div>
-            <div class="col-6">
-                <h5> Beach Wedding package </h5>
-                <h6> Starting US $1,500.00 </h6>
-                <p> 
-                    Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony. 
+            <div class="row">
+                <div class="col-6 p-0 pe-5">
+                    <img class="packages-images" src="./assets/hamsterwedding.jpg" alt="Hamster Wedding">
+                </div>
+                <div class="col-6 packages-text-wedding p-0">
+                    <h5 class="packages-title"> Beach Wedding package </h5>
+                    <h6 class="packages-subtitle"> Starting US $1,500.00 </h6>
+                    <p class="packages-description"> 
+                        Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony. 
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 p-0">
+                    <h5 class="packages-title"> Full Bloom Package </h5>
+                    <h6 class="packages-subtitle"> Starting US $1,000.00 </h6>
+                    <p class="packages-description">
+                        Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open all day. We end each evening with fresh, vegetable centric dinners along with a live show from local musicians.
+                    </p>
+                </div>
+                <div class="col-6 p-0">
+                    <img class="packages-images" src="./assets/hamsterspring.jpg" alt="Hamster Spring">
+                </div>
+                <div class="row">
+                    <div class="col-6 p-0">
+                        <img class="packages-images" src="./assets/hamstercheese.jpg" alt="Hamster Cheese">
+                    </div>
+                    <div class="col-6 p-0 ps-2">
+                        <h5 class="packages-title"> Cheese and Seed Tour Package </h5>
+                        <h6 class="packages-subtitle"> Starting US $1,200.00 </h6>
+                        <p class="packages-description">
+                            Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted with connoisseurs from around the globe to bring you the best flavors that nature has to offer, and create our cheeses right here at our local creamery. Cheese and seeds are served all day and nightly spa treatment is provided after dinner.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- Amenities -->
+
+      <div class="container-fluid amenities-container p-0">
+        <div class="row">
+            <img class="amenities-background" src="./assets/bg.jpg" alt="Beach Resort Background">
+        </div>
+        <div class="container amenities-subcontainer">
+            <div class="row">
+                <h5 class="amenities-title"> Amenities </h5>
+                <p class="amenities-description"> 
+                    Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay we can provide. 
                 </p>
             </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./assets/24hour.png" alt="">
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
         </div>
+
       </div>
 
 
