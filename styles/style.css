@@ -263,6 +263,11 @@ ul.nav a::hover {
     margin-top: 75px;
 }
 
+.amenities-width {
+    width: 1000px;
+    padding-top: 25px;
+}
+
 /* Reservation Section */
 
 .reserve-container {
