@@ -146,6 +146,10 @@ ul.nav a::hover {
     margin-top: 90px;
 }
 
+.packages-container {
+    width: 1000px;
+}
+
 .packages-titletext {
     font-family: Dosis;
     font-size: 35px;
@@ -154,7 +158,7 @@ ul.nav a::hover {
 }
 
 .packages-images {
-    width: 635px;
+    width: 475px;
     height: 265px;
 
     object-fit: cover;
@@ -189,6 +193,9 @@ ul.nav a::hover {
 }
 
 .amenities-subcontainer {
+    display: block;
+    justify-content: center;
+    width: 1000px;
     position: relative;
     bottom: 535px;
 }
@@ -213,6 +220,30 @@ ul.nav a::hover {
     text-align: center;
     color: white;
     font-weight: 300;
+}
+
+.amenities-images {
+    width: 150px;
+}
+
+.valet-image {
+    width: 95px;
+}
+
+.pool-image {
+    width: 145px;
+}
+
+.amenities-text {
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.amenities-images-placement {
+    margin-top: 75px;
 }
 
 
