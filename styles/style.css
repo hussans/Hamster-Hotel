@@ -7,7 +7,8 @@
 .row {
     padding-right: 0px;
     margin-right: 0px;
-  }
+    overflow: hidden;
+} 
 
 /* Navbar */
 
@@ -335,3 +336,172 @@ ul.nav a::hover {
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+
+    /* Navbar */
+
+    .nav-item {
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+
+    .navbar a {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .navbar .border {
+        border: none !important;
+        padding-bottom: 10px;
+    }
+
+    .navbar img {
+        display: none;
+    }
+
+    /* Header */
+
+    .header-image {
+        width: 100%;
+        height: 350px;
+    
+        object-fit: cover;
+    }
+
+    .header-text {
+        position: relative;
+        bottom: 275px;
+    }
+
+
+    .header-text h2 {
+        font-size: 25px;
+        padding-bottom: 3px;
+    }
+
+    .container-height {
+        height: 425px;
+    }
+
+    /* Introduction */
+
+    .intro-container h3 {
+        font-size: 27px;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+
+    .intro-container .intro-text {
+        padding-left: 75px;
+        padding-right: 0px;
+    }
+
+    .intro-container .hamster-image {
+        width: 100%;
+        height: 375px;
+
+        object-fit: cover;
+    }
+
+    .image-finest {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-satisfaction {
+        width: 83%;
+        height: auto;
+    }
+
+    .image-genuine {
+        width: 95%;
+        height: auto;
+    }
+
+    .intro-container {
+        padding-left: 1px !important;
+        padding-right: 1px !important;
+        margin-left: 1px !important;
+        margin-right: 1px !important;
+    }
+
+    /*  Our Rooms */
+
+    .card-container .row {
+        display: flex;
+        justify-content: space-evenly !important;
+
+    }
+
+    .card {
+        width: 225px !important;
+        height: auto !important;
+    }
+
+    .card-body .btn-margin {
+        margin-top: 36px !important;
+    }
+
+    /* Packages */
+
+    .packages-container {
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    .packages-images {
+        width: 325px;
+        height: 280px;
+    
+        object-fit: cover;
+    }
+
+    .packages-title {
+        padding-top: 15px;
+    }
+
+    .packages-images {
+        padding-top: 15px;
+    }
+
+    /* Amenities */
+
+    .amenities-width {
+        width: 600px;
+    }
+
+    .amenities-images {
+        width: 75%;
+    }
+
+    .valet-image {
+        width: 46%;
+    }
+
+    .pool-image {
+        width: 75%;
+    }
+
+    /* Reserve a Room */
+
+    .reserve-button {
+        width: 120px;
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+
+        font-size: 12px;
+    }
+
+    .button-position {
+        position: relative;
+        bottom: 4px;
+    }
+
+    .reserve-text {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+
+    
+}
