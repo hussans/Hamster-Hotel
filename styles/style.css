@@ -588,6 +588,27 @@ ul.nav a::hover {
 
 @media screen and (max-width: 425px) {
 
+    /* Navbar */
+
+    .nav-item {
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+
+    .navbar a {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .navbar .border {
+        border: none !important;
+        padding-bottom: 10px;
+    }
+
+    .navbar img {
+        display: none;
+    }
+
     /* Header */
 
     .header-image {
