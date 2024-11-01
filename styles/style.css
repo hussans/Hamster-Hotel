@@ -336,6 +336,92 @@ ul.nav a::hover {
     text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+
+    /* Introduction */
+
+    .intro-container .hamster-image {
+        width: 95%;
+        height: 350px;
+
+        object-fit: cover;
+    }
+
+    .intro-container .intro-text {
+        padding-left: 75px;
+        padding-right: 0px;
+    }
+
+    .image-finest {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-satisfaction {
+        width: 83%;
+        height: auto;
+    }
+
+    .image-genuine {
+        width: 95%;
+        height: auto;
+    }
+
+    /* Packages */
+
+    .packages-container {
+        padding-right: 0px;
+        margin-right: 5px;
+    }
+    
+    .packages-images {
+        width: 450px;
+        height: 280px;
+        
+        object-fit: cover;
+    }
+    
+    .packages-title {
+        padding-top: 15px;
+    }
+    
+    .packages-images {
+        padding-top: 15px;
+    }
+
+    /* Amenities */
+
+    .amenities-width {
+        width: 750px;
+    }
+
+    .amenities-description {
+        padding-top: 15px;
+        font-family: sans-serif;
+        font-size: 13px;
+        text-align: center;
+        color: white;
+        font-weight: 300;
+    }
+
+    .amenities-images {
+        width: 75%;
+    }
+
+    .valet-image {
+        width: 46%;
+    }
+
+    .pool-image {
+        width: 75%;
+    }
+    
+
+
+
+
+}
+
 @media screen and (max-width: 768px) {
 
     /* Navbar */
